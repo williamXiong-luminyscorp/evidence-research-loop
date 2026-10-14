@@ -1,0 +1,6 @@
+interface:
+  display_name: "文献与实验自主研究"
+  short_description: "查文献、提出方案，由固定程序比较，再迭代、独立测试和消融"
+  default_prompt: "使用 $evidence-research-loop 研究当前问题，实际执行方案对照、失败改进、独立测试和消融，并用证据说明结论与限制。"
+policy:
+  allow_implicit_invocation: true
